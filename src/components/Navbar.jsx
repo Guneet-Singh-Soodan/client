@@ -13,11 +13,11 @@ function Navbar() {
                         <li class="nav-item">
                         <a class="nav-link" href="#">About Us</a>
                         </li>
-                        <li class="nav-item">
+                        {/* <li class="nav-item">
                         <a class="nav-link" href="#">Services</a>
-                        </li>
+                        </li> */}
                         <li class="nav-item">
-                        <a class="nav-link">Contact</a>
+                        <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
                     </div>

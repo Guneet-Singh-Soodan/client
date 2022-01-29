@@ -197,7 +197,7 @@ hr {
 }
 
 .service-div-p {
-    display: none;
+    /* display: none; */
 }
 
 .service-div:hover .service-div-p {

@@ -13,6 +13,20 @@ nav {
     background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
 }
 
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+    background-image: none !important;
+    color: cyan !important;
+    border: white !important;
+}
+
 .navbar-brand {
     color: pink !important;
     text-decoration: cyan underline;
@@ -159,13 +173,36 @@ hr {
     margin-top: 80px;
     margin-bottom: 100px;
 }
+
 .service div {
     margin-left: 10px;
     border: solid 1px cyan;
-    height: 200px;
+    min-height: 150px;
     margin-bottom: 20px;
     text-align: center;
     padding: 10%;
+    color: pink;
+}
+
+.service div div {
+    text-decoration: underline cyan;
+    border: none;
+}
+
+.service div p {
+    font-size: 1rem;
+    text-align: left;
+    color: white;
+    text-decoration: none !important;
+}
+
+.service-div-p {
+    display: none;
+}
+
+.service-div:hover .service-div-p {
+    display: block;
+    color: blue;
 }
 
 .portfolio-heading {

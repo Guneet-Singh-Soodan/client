@@ -1,0 +1,488 @@
+body {
+    background-color: #1d1e21 !important;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+}
+
+.custom-style-navbar {
+    background-color: #1d1e21 !important;
+}
+
+nav {
+    background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+}
+
+.navbar-brand {
+    color: pink !important;
+    text-decoration: cyan underline;
+    margin-left: 10%;
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+    transform: rotate(270deg);
+}
+
+.nav-link {
+    color: #aaa !important;
+    margin-left: 32.4px;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.navbar-nav {
+    margin-left: 58%;
+    margin-top: 35px;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        margin-left: 6.7%;
+        margin-top: 10px;
+    }
+}
+
+.introduction {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    color: pink;
+    text-decoration: underline cyan;
+}
+
+@media (max-width: 575px) {
+    .introduction {
+        font-size: 1.875rem;
+    }
+}
+
+.introduction-container {
+    margin-left: 22%;
+    margin-right: 20%;
+    margin-top: 75px;
+    padding: 0.6%;
+}
+
+.arrow {
+    margin-left: 20%;
+    position: relative;
+    top: 130px;
+}
+
+hr {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.introduction-anchor-tag {
+    text-decoration: none;
+    color: white;
+    background-color: #29292c;
+    padding: 0.8%;
+    border-radius: 6%;
+    font-size: 0.9375rem;
+}
+
+.introduction-anchor-tag:hover {
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
+.animate__animated.animate__shakeY {
+    animation-duration: 8s;
+}
+
+.arrow a {
+    text-decoration: none;
+    color: white;
+}
+
+.introduction-image {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.images {
+    margin-left: 49%;
+    margin-top: 40px;
+    width: 50%;
+}
+
+@media (max-width: 991px) {
+    .images {
+        margin: 0;
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .images {
+        margin: 0;
+        width: 100%;
+        margin-top: 40px;
+        text-align: center;
+    }
+}
+
+.services-heading {
+    font-size: 0.8125rem;
+    color: #aaaaaa;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-left: 45%;
+    margin-top: 125px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+
+.services-heading-2 {
+    font-size: 2.5rem;
+    margin-left: 17%;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.services {
+    font-size: 1.5rem;
+    width: 80%;
+    margin-left: 12.5%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.service div {
+    margin-left: 10px;
+    border: solid 1px cyan;
+    height: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10%;
+}
+
+.portfolio-heading {
+    font-size: 0.8125rem;
+    color: #aaaaaa;
+    font-weight: 600;
+    margin-left: 45%;
+    margin-top: 125px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.portfolio-heading-2 {
+    font-size: 2.5rem;
+    margin-left: 38%;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.portfolio-image {
+    height: 550px;
+    margin-bottom: 25px;
+    border-radius: 1%;
+    width: 90%;
+}
+
+.portfolio-row {
+    margin-left: 12.5%;
+    margin-top: 80px;
+    width: 80%;
+}
+
+@media (max-width: 767px) {
+    .portfolio-row {
+        margin-left: 10%;
+    }
+    .portfolio-heading-2 {
+        margin-left: 28%;
+    }
+}
+
+.portfolio-subheading {
+    font-size: 0.9375rem;
+    color: #aaaaaa;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+.portfolio-subheading-desc {
+    margin-bottom: 150px;
+    font-size: 1.875rem;
+    font-weight: 400;
+}
+
+.testimonials-heading {
+    font-size: 0.8125rem;
+    color: #aaaaaa;
+    font-weight: 600;
+    margin-left: 45%;
+    margin-top: 75px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.testimonials-heading-2 {
+    font-size: 2.5rem;
+    margin-left: 45%;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.testimonial {
+    margin-left: 45%;
+    position: relative;
+}
+
+.testimonials-div {
+    width: 65%;
+    margin-left: 18%;
+}
+
+.navbar-brand i {
+    color: #aaaaaa;
+}
+
+.testimonials-image {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.testimonial-info {
+    margin-left: 15%;
+}
+
+.testimonial-info-div {
+    display: inline-block;
+}
+
+.info {
+    margin-left: 15px;
+}
+
+.carousel-control-prev {
+    position: relative;
+    bottom: 50px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: left;
+    width: 35px;
+}
+
+.carousel-control-prev-icon {
+    border: solid 1px white;
+    margin-left: 0;
+    text-align: center;
+}
+
+.carousel-control-next {
+    position: relative;
+    bottom: 80px;
+    display: inline-block;
+    text-align: left;
+    width: 30px;
+}
+
+.carousel-control-next-icon {
+    border: solid 1px white;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.testimonial-desc {
+    font-size: 0.9375rem;
+    color: #aaaaaa;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.testimonial-name {
+    font-size: 1.375rem;
+    font-weight: 500;
+}
+
+.info p {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: #aaaaaa;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+  height: 40px;
+  width: 40px;
+  padding-top: 15%;
+}
+
+.carousel-control-next-icon:after {
+    content: '⟶';
+    font-weight: 500;
+}
+  
+.carousel-control-prev-icon:after {
+    content: '⟵';
+    font-weight: 500;
+}
+
+@media (max-width: 767px) {
+    .testimonial, .testimonials-heading, .testimonials-heading-2 {
+        margin-left: 0%;
+    }
+    .testimonials-div {
+        width: 80%;
+        margin-left: 5%;
+    }
+}
+
+.testimonial-hr {
+    margin-top: 150px;
+    width: 100%;
+}
+
+.team-heading {
+    font-size: 0.8125rem;
+    color: #aaaaaa;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-left: 17%;
+    margin-top: 125px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+
+.team-heading-2 {
+    font-size: 2.5rem;
+    margin-left: 17%;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+
+.team-div {
+    text-align: left;
+    width: 70%;
+    margin-left: 17%;
+    margin-bottom: 100px;
+}
+
+.team-desc {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.team-image {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    border-top-right-radius: 0;
+    margin-bottom: 10px;
+}
+
+.teams {
+}
+
+.team-desc-p {
+    margin-top: 30px;
+    font-size: 1.375rem;
+}
+
+.team-position {
+    margin-right: 5px;
+    background-color: #18191c;
+    margin-bottom: 25px;
+    padding: 1.5%;
+}
+
+.team-desc-p-2 {
+    font-size: 0.9375rem;
+    color: #aaaaaa;
+    text-decoration: underline;
+}
+
+/* Footer */
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #aaaaaa;
+    font-size: 0.875rem;
+    text-align: left;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #aaaaaa;
+    text-decoration: underline;
+  }
+
+  li a:hover {
+      color: white;
+  }
+  
+  .links-header {
+    font-size: 1.1rem;
+    color: white;
+    letter-spacing: 2px;
+  }
+  
+  .social-icons {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    /* border: 1px solid #aaaaaa; */
+    background-color: #18191c;
+  }
+  
+  li i {
+    position: relative;
+    top: 10px;
+    color: white;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 3% 11%;
+  }
+  
+  .copyright {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+  
+  .co {
+    text-align: left;
+  }
+  
+  .telephone {
+    position: relative;
+    top: 0px;
+  }
+
+  /* .services-div {
+    background-image: url("https://www.transparenttextures.com/patterns/fresh-snow.png");
+  } */
